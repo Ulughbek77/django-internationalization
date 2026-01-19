@@ -21,3 +21,10 @@
 </form>
 
 {% trans "Bosh sahifa" %}
+
+<p>-----------------------</p>
+
+{% for item in items %}
+    {{ item.name }}
+    {{ item.content }}
+{% endfor %}
